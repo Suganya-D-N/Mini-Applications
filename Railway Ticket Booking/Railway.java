@@ -48,7 +48,6 @@ public class Railway{
         home();
     }
     public static void cS(){
-        System.out.println("   C T E S K P CH\n");
         for(int i=0;i<10;i++){
             if(i<9)System.out.print((i+1)+"   ");
             else System.out.print((i+1)+"  "); 
