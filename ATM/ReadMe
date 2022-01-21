@@ -22,12 +22,12 @@ USER LOGIN -
       
      (Username - Password - Amount in account - IFSC - Account No - Bank Name)
       
-      rithik  - 1234 -  12000.00 -  ra123 -  1234567 -  RBI
-      raghul  - 4321 -  15000.00 -  ra123 -  1234565 -  RBI
-      survesh - 1423 -  14500.00 -  rb123 -  1234563 -  SBI
-      vishnu  - 3241 -  11500.00 -  rb123 -  1234561 -  SBI
-      naresh  - 2314 -  15700.00 -  ra123 -  1234569 -  RBI
-      moune   - 2413 -  18000.00 -  ra123 -  1234560 -  RBI
+      Suganya  - 1234 -  12000.00 -  ra123 -  1234567 -  RBI
+      Madae  - 4321 -  15000.00 -  ra123 -  1234565 -  RBI
+      vithya - 1423 -  14500.00 -  rb123 -  1234563 -  SBI
+      achi  - 3241 -  11500.00 -  rb123 -  1234561 -  SBI
+      hari  - 2314 -  15700.00 -  ra123 -  1234569 -  RBI
+      pradee   - 2413 -  18000.00 -  ra123 -  1234560 -  RBI
  
  USER FUNCTION - 
       1. Withdraw
