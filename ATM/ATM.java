@@ -1,37 +1,3 @@
-/*
-Design and Develop a Monolith Console based ATM Application by understanding various use 
-cases from the Customer/User and Administrator point of view. You are allowed to 
-improvise and add more real-time use relevant cases to each task if possible. 
-------------------------------------------------------------------------------------------
-Module A : Authentication and Welcome menu 
-------------------------------------------------------------------------------------------
-
-    Application must authenticate both Borrower and Administrator taking UserID and pin 
-    and display a welcome menu based on their role. 
-    
-------------------------------------------------------------------------------------------
-Module B : Administrator Login
-------------------------------------------------------------------------------------------
-
-    1.Update Amount in ATM -> Update must be checked against maximum threshold value of 
-    each denomination. Allowed denominations are 2000,500,200,100.
-    
-------------------------------------------------------------------------------------------
-Module C : Customer Login
-------------------------------------------------------------------------------------------
-
-    1.Withdraw Amount ( Amount withdrawal based on availability on ATM Machine.)
-    2.Check Balance ( Reflect the account balance.)
-    3.Pin change
-    4.Download Mini statement (minimum 6 transactions)
-    5.Direct Deposit
-    6.Amount Transfer
-    
-------------------------------------------------------------------------------------------
-
-*/
-
-
 import java.util.Scanner;
 public class ATM{
     static Scanner scanner = new Scanner(System.in);
@@ -429,12 +395,12 @@ public class ATM{
         trueUser();
     }
     public static void createUser() {
-        u[0]=new UserDetails("rithik", 1234, 12000.00,"ra123","1234567","","RBI",0,0);
-        u[1]=new UserDetails("raghul", 4321, 15000.00,"ra123","1234565","","RBI",0,0);
-        u[2]=new UserDetails("survesh", 1423, 14500.00,"rb123","1234563","","SBI",0,0);
-        u[3]=new UserDetails("vishnu", 3241, 11500.00,"rb123","1234561","","SBI",0,0);
-        u[4]=new UserDetails("naresh", 2314, 15700.00,"ra123","1234569","","RBI",0,0);
-        u[5]=new UserDetails("moune", 2413, 18000.00,"ra123","1234560","","RBI",0,0);
+        u[0]=new UserDetails("Suganya", 1234, 12000.00,"ra123","1234567","","RBI",0,0);
+        u[1]=new UserDetails("Madae", 4321, 15000.00,"ra123","1234565","","RBI",0,0);
+        u[2]=new UserDetails("vithya", 1423, 14500.00,"rb123","1234563","","SBI",0,0);
+        u[3]=new UserDetails("achi", 3241, 11500.00,"rb123","1234561","","SBI",0,0);
+        u[4]=new UserDetails("hari", 2314, 15700.00,"ra123","1234569","","RBI",0,0);
+        u[5]=new UserDetails("pradee", 2413, 18000.00,"ra123","1234560","","RBI",0,0);
     }
 }
 class UserDetails{
