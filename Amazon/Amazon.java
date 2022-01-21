@@ -1,44 +1,3 @@
-/*
-------------------------------------------------------------------------------------------
-MODULE 1: Admin Login
-------------------------------------------------------------------------------------------
-
-1.Admin must be authenticated against valid username and password
-2.Add / Remove Merchants
-3.View all Products
-4.Add Product Category
-5.APPROVE MERCHANT
-
-------------------------------------------------------------------------------------------
-Module 2: Merchant Login
-------------------------------------------------------------------------------------------
-
-1.New merchant self registration ( Submitted for admin approval post registration)
-2.Merchant login authentication
-3.Add products
-4.Review / update products
-5.View Frequent / Repeated customer
-6.View Most sold product
-7.View Sales Report
-
-------------------------------------------------------------------------------------------
-Module 3: User Login
-------------------------------------------------------------------------------------------
-
-1.New user self registration
-2.User login authentication
-3.View available products
-4.Compare prices from different merchant
-5.Add Products to cart
-6.Checkout from wallet / COD
-7.List all previous orders
-8.View Purchase History
-
-------------------------------------------------------------------------------------------
-*/
-
-
-
 import java.util.ArrayList;
 import java.util.Scanner;
 class Amazon{
@@ -926,17 +885,16 @@ class Customer extends Amazon{
 }
 class All extends Amazon{
     public static void ven(){
-        v.add(new Vendor("babu","1234",1,"sports",new ArrayList<>()));
-        v.add(new Vendor("ramu","1243",2,"accesories",new ArrayList<>()));
-        v.add(new Vendor("sedhu","2134",3,"clothing",new ArrayList<>()));
-        v.add(new Vendor("achu","2143",4,"cosmetics",new ArrayList<>()));
+        v.add(new Vendor("ven1","111",1,"shoes",new ArrayList<>()));
+        v.add(new Vendor("ven2","222",2,"clothing",new ArrayList<>()));
+        v.add(new Vendor("ven3","333",3,"kids wears",new ArrayList<>()));
     }
     public static void cus(){
-        c.add(new Customer("rithik","1234",new ArrayList<>(),12000,new ArrayList<>()));
-        c.add(new Customer("raghul", "1324",new ArrayList<>(),13000,new ArrayList<>()));
-        c.add(new Customer("vishnu", "4132",new ArrayList<>(),14000,new ArrayList<>()));
-        c.add(new Customer("moune", "3214",new ArrayList<>(),15000,new ArrayList<>()));
-        c.add(new Customer("survesh", "2314",new ArrayList<>(),16000,new ArrayList<>()));
-        c.add(new Customer("naresh", "2431",new ArrayList<>(),17000,new ArrayList<>()));
+        c.add(new Customer("cus1","111",new ArrayList<>(),1000,new ArrayList<>()));
+        c.add(new Customer("cus2", "222",new ArrayList<>(),2000,new ArrayList<>()));
+        c.add(new Customer("cus3", "333",new ArrayList<>(),3000,new ArrayList<>()));
+        c.add(new Customer("cus4", "444",new ArrayList<>(),4000,new ArrayList<>()));
+        c.add(new Customer("cus5", "555",new ArrayList<>(),5000,new ArrayList<>()));
+        c.add(new Customer("cus6", "666",new ArrayList<>(),6000,new ArrayList<>()));
     }
 }
