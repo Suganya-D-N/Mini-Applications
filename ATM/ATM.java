@@ -50,7 +50,7 @@ public class ATM{
         int pass = scanner.nextInt();
         System.out.print("\033[H\033[2J");  
         System.out.flush();
-        if((name.equals("admin") && pass==12345) || (name.equals("manager") && pass==54321)) trueAdmin();
+        if(name.equals("admin") && pass==123) trueAdmin();
         else{
             System.out.println("Please Check Your Login Credentials");
             home();
@@ -395,12 +395,12 @@ public class ATM{
         trueUser();
     }
     public static void createUser() {
-        u[0]=new UserDetails("Suganya", 1234, 12000.00,"ra123","1234567","","RBI",0,0);
-        u[1]=new UserDetails("Madae", 4321, 15000.00,"ra123","1234565","","RBI",0,0);
-        u[2]=new UserDetails("vithya", 1423, 14500.00,"rb123","1234563","","SBI",0,0);
-        u[3]=new UserDetails("achi", 3241, 11500.00,"rb123","1234561","","SBI",0,0);
-        u[4]=new UserDetails("hari", 2314, 15700.00,"ra123","1234569","","RBI",0,0);
-        u[5]=new UserDetails("pradee", 2413, 18000.00,"ra123","1234560","","RBI",0,0);
+        u[0]=new UserDetails("Suganya", 111, 242000.00,"rb123","1234567","","RBI",0,0);
+        u[1]=new UserDetails("Madae", 222, 18000.00,"io123","1234565","","IOB",0,0);
+        u[2]=new UserDetails("vithya", 333, 14000.00,"ic123","1234563","","ICICI",0,0);
+        u[3]=new UserDetails("achi", 444, 101500.00,"ub123","1234561","","UBOI",0,0);
+        u[4]=new UserDetails("hari", 555, 19300.00,"kv123","1234569","","KVB",0,0);
+        u[5]=new UserDetails("pradee", 666, 25000.00,"ca123","1234560","","CANARA",0,0);
     }
 }
 class UserDetails{
